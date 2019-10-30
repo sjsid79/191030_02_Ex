@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this, String.format("ID : %s, PW : %s", inputid, inputPw), Toast.LENGTH_SHORT).show()
 
+
         }
     }
 }
