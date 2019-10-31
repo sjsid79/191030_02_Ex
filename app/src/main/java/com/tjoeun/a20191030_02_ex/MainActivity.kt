@@ -15,9 +15,10 @@ class MainActivity : AppCompatActivity() {
             var inputid = idEdt.text.toString()
             var inputPw = pwEdt.text.toString()
 
-            Toast.makeText(this, String.format("ID : %s, PW : %s", inputid, inputPw), Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this, String.format("ID : %s, PW : %s", inputid, inputPw), Toast.LENGTH_SHORT).show()
 
-
+            val printStr = "ID는 ${inputid.toLowerCase()} 이고, PW는 ${inputPw} 입니다."
+            Toast.makeText(this, printStr, Toast.LENGTH_SHORT).show()
         }
     }
 }
